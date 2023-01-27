@@ -1,0 +1,206 @@
+:root{
+  --prime-color-font: #2E2F42;
+  --color-hover: #404BBF;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body{
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--prime-color-font);
+}
+
+
+/* ================Header ================*/
+.menu-link {
+   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prime-color-font);
+}
+
+.addres-link{
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--prime-color-font);
+}
+
+.logo{
+    width: 71px;
+height: 24px;
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.span-web{
+    color: #4D5AE5;
+}
+
+.span-studio{
+    color: var(--prime-color-font);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+  color: var(--color-hover);
+}
+
+.addres-link:hover,
+.addres-link:focus{
+  color: var(--color-hover);
+}
+
+.current:hover{
+  color: var(--color-hover);
+}
+
+.modal-btn{
+  color: #FFFFFF;
+  padding: 16px 32px;
+background-color:  #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+  background: #404BBF;
+}
+
+
+/* ================HERO ================ */
+
+.main-header{
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+background-color: #2E2F42;
+}
+
+.modal-btn-portfolio{
+  padding: 16px 32px;
+  background-color:  #F4F4FD;
+color: #4D5AE5;
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus{
+background-color: #404BBF;
+color: #FFFFFF;
+}
+
+
+/* ================ABOUT US============= */
+.third-header{
+ font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--prime-color-font);
+}
+
+.about-discr{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ================What we doing========= */
+.second-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--prime-color-font);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ================Our Team======= */
+
+.team-header{
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--prime-color-font);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+;
+}
+
+.name-header{
+ font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--prime-color-font);
+}
+
+.dscr-prof{
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.bg-color-section{
+  background-color: #F4F4FD;
+}
+
+/* ===============Footr============ */
+.footer-dcr{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+.footer-color{
+  background-color: #2E2F42;;
+}
+
+.span-white{
+  color: #F4F4FD;
+}
+/* ================Sections ================ */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
